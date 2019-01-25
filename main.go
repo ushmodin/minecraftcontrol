@@ -41,7 +41,7 @@ func main() {
 				log.Printf("Can check user runtime: %s\n", err)
 				continue
 			}
-			if runtime > 2 {
+			if runtime > 180 {
 				killAll(pids)
 			}
 		}
